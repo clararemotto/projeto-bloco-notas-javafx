@@ -1,12 +1,9 @@
 package com.example;
 
-import java.io.IOException;
-import javafx.fxml.FXML;
-
 public class PrimaryController {
 
-    @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    }
+    private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
+    private static final String USER = "RM97898";
+    private static final String PASS = "210904";
+    
 }
