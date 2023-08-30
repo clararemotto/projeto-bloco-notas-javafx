@@ -25,7 +25,7 @@ public class PrimaryController {
 
         String descricao_anotacao = txtAnotacao.getText();
         var anotacao = new Anotacao(descricao_anotacao);
-z
+
         try {
             var conexao = DriverManager.getConnection(URL, USER, PASS);
 
