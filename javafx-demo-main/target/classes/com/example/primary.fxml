@@ -20,7 +20,7 @@
          <children>
             <Label alignment="CENTER" text="Descrição: " />
             <TextField fx:id="txtAnotacao" prefHeight="26.0" prefWidth="212.0" />
-            <Button fx:id="primaryButton" onAction="#switchToSecondary" style="-fx-background-color: #ff0066;" text="Adicionar" textFill="WHITE">
+            <Button fx:id="primaryButton" onAction="#adicionar" style="-fx-background-color: #ff0066;" text="Adicionar" textFill="WHITE">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>
